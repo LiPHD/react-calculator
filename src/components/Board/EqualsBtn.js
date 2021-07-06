@@ -7,6 +7,7 @@ const EqualsBtn = (props) => {
         <button
             id={props.id}
             value={props.value}
+            className="grid-item-equal"
             style={style}
             onClick={props.onClick}
         >

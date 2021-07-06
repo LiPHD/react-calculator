@@ -1,6 +1,6 @@
-import '/Result.css';
+import './Result.css';
 
-const Result = () => {
+const Result = props => {
     return (
         <div className='result-container'>
             <div className='head'>{props.head}</div>

@@ -10,7 +10,7 @@ const OperatorBtn = (props) => {
             style={style}
             onClick={props.onClick}
         >
-            {props.value}
+            {props.value === "*" ? 'x' : props.value}
         </button>
     )
 }

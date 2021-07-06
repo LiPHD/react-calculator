@@ -1131,7 +1131,7 @@
     "core-js-pure" "^3.0.0"
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   "integrity" "sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.14.6.tgz"
   "version" "7.14.6"
@@ -3455,7 +3455,7 @@
   "resolved" "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz"
   "version" "1.0.1"
 
-"complex.js@^2.0.13":
+"complex.js@^2.0.11":
   "integrity" "sha512-gDBvQU8IG139ZBQTSo2qvDFP+lANMGluM779csXOr6ny1NUtA3wkUnCFjlDNH/moAVfXtvClYt6G0zarFbtz5w=="
   "resolved" "https://registry.npmjs.org/complex.js/-/complex.js-2.0.15.tgz"
   "version" "2.0.15"
@@ -4031,7 +4031,7 @@
   "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
   "version" "1.2.0"
 
-"decimal.js@^10.2.0", "decimal.js@^10.3.0":
+"decimal.js@^10.2.0", "decimal.js@^10.2.1":
   "integrity" "sha512-V0pfhfr8suzyPGOx3nmq4aHqabehUZn6Ch9kyFpV79TGDTWFmHqUqXdabR7QHqxzrYolF4+tVmJhUG4OURg5dQ=="
   "resolved" "https://registry.npmjs.org/decimal.js/-/decimal.js-10.3.1.tgz"
   "version" "10.3.1"
@@ -5231,7 +5231,7 @@
   "resolved" "https://registry.npmjs.org/forwarded/-/forwarded-0.1.2.tgz"
   "version" "0.1.2"
 
-"fraction.js@^4.1.1":
+"fraction.js@^4.0.12":
   "integrity" "sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg=="
   "resolved" "https://registry.npmjs.org/fraction.js/-/fraction.js-4.1.1.tgz"
   "version" "4.1.1"
@@ -6597,6 +6597,7 @@
     "jest-snapshot" "^26.6.2"
 
 "jest-resolve@*":
+  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ=="
   "version" "26.6.0"
   dependencies:
     "@jest/types" "^26.6.0"
@@ -7241,16 +7242,15 @@
   dependencies:
     "object-visit" "^1.0.0"
 
-"mathjs@^9.4.3":
-  "integrity" "sha512-UgIalR0ICCu1Me4kVPEXb8Xtw7S62XMpP7qSXfImQsoIc1pOX/IxZkLw33VdFYlmXpma3zcRoMq5auwB2fg1AA=="
-  "resolved" "https://registry.npmjs.org/mathjs/-/mathjs-9.4.3.tgz"
-  "version" "9.4.3"
+"mathjs@^8.0.1":
+  "integrity" "sha512-lvdYNHLNrRORYKRpRs22RMeeAoqVxRePUCjDealCZLfN5io0tJHqQLyNZuJJSXWa8Pl0dkM434D4cIUsbYR1Mg=="
+  "resolved" "https://registry.npmjs.org/mathjs/-/mathjs-8.0.1.tgz"
+  "version" "8.0.1"
   dependencies:
-    "@babel/runtime" "^7.14.6"
-    "complex.js" "^2.0.13"
-    "decimal.js" "^10.3.0"
+    "complex.js" "^2.0.11"
+    "decimal.js" "^10.2.1"
     "escape-latex" "^1.2.0"
-    "fraction.js" "^4.1.1"
+    "fraction.js" "^4.0.12"
     "javascript-natural-sort" "^0.7.1"
     "seedrandom" "^3.0.5"
     "tiny-emitter" "^2.1.0"
